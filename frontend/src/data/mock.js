@@ -7,9 +7,32 @@ export const companyInfo = {
   contact: {
     phone: "09393802148",
     facebook: "https://www.facebook.com/profile.php?id=61585386821595",
-    email: "contact@gokalakal.com"
+    email: "support@gokalakal.com",
+    email2: "mendozasheen2019@gmail.com"
   },
-  logoUrl: "https://customer-assets.emergentagent.com/job_4bf2824d-5d8e-4d64-b24d-eda1599f30aa/artifacts/a15ra0et_Group%201171275150%20%281%29.png"
+  logoUrl: "https://customer-assets.emergentagent.com/job_digital-craft-17/artifacts/1doxkxfe_Group%201171275150%20%282%29.png",
+  location: {
+    name: "Subic Bay Freeport Zone",
+    address: "Subic Bay Freeport Zone, Zambales, Philippines",
+    coordinates: {
+      lat: 14.7942,
+      lng: 120.2833
+    },
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123024.76384199258!2d120.19789065!3d14.794295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396711b8d85f65b%3A0x4c2a0f13e58a1a5b!2sSubic%20Bay%20Freeport%20Zone!5e0!3m2!1sen!2sph!4v1703318400000!5m2!1sen!2sph"
+  },
+  businessHours: "24/7",
+  poweredBy: [
+    {
+      name: "Hostinger",
+      logo: "https://assets.hostinger.com/images/logo-horizontal-purple.svg",
+      url: "https://www.hostinger.ph"
+    },
+    {
+      name: "Dragonpay",
+      logo: "https://www.dragonpay.ph/wp-content/uploads/2020/06/dragonpay-logo.png",
+      url: "https://www.dragonpay.ph"
+    }
+  ]
 };
 
 export const pricingPlans = [
