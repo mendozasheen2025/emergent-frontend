@@ -202,3 +202,109 @@ export const processSteps = [
     description: "Your website goes live with full support and maintenance."
   }
 ];
+
+export const portfolioSamples = [
+  {
+    id: 1,
+    title: "Modern Business Website",
+    category: "Corporate",
+    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80",
+    description: "Clean, professional design for corporate clients"
+  },
+  {
+    id: 2,
+    title: "E-commerce Platform",
+    category: "Online Store",
+    image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&q=80",
+    description: "Feature-rich online shopping experience"
+  },
+  {
+    id: 3,
+    title: "Creative Portfolio",
+    category: "Portfolio",
+    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80",
+    description: "Stunning portfolio showcase for creatives"
+  },
+  {
+    id: 4,
+    title: "Restaurant Website",
+    category: "Food & Dining",
+    image: "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=800&q=80",
+    description: "Appetizing design with online reservations"
+  },
+  {
+    id: 5,
+    title: "Real Estate Platform",
+    category: "Property",
+    image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?w=800",
+    description: "Property listings with virtual tours"
+  },
+  {
+    id: 6,
+    title: "Healthcare Website",
+    category: "Medical",
+    image: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?w=800",
+    description: "Professional medical practice website"
+  }
+];
+
+export const seoData = {
+  title: "The Website Maker by GoKalakal | Professional Web Development Philippines",
+  description: "Professional web development services starting at ₱15,000. Custom websites, responsive design, SEO optimization. Free domain & hosting for 1 year. Based in Subic Bay Freeport Zone.",
+  keywords: "web development philippines, website maker, custom website, responsive design, SEO optimization, Subic Bay web developer, affordable website, business website, e-commerce website, GoKalakal",
+  author: "The Website Maker by GoKalakal",
+  url: "https://dev.gokalakal.com",
+  image: "https://customer-assets.emergentagent.com/job_digital-craft-17/artifacts/1doxkxfe_Group%201171275150%20%282%29.png",
+  type: "website",
+  locale: "en_PH",
+  twitterHandle: "@gokalakal",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "WebDesignCompany",
+    "name": "The Website Maker by GoKalakal",
+    "description": "Professional web development services for personal and business needs",
+    "url": "https://dev.gokalakal.com",
+    "logo": "https://customer-assets.emergentagent.com/job_digital-craft-17/artifacts/1doxkxfe_Group%201171275150%20%282%29.png",
+    "telephone": "+63-939-380-2148",
+    "email": "support@gokalakal.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Subic Bay Freeport Zone",
+      "addressRegion": "Zambales",
+      "addressCountry": "PH"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "14.7942",
+      "longitude": "120.2833"
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "priceRange": "₱15,000 - ₱50,000",
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61585386821595"
+    ],
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Basic Website Package",
+        "price": "15000",
+        "priceCurrency": "PHP",
+        "description": "Single page website with free domain and hosting"
+      },
+      {
+        "@type": "Offer",
+        "name": "Advance Website Package",
+        "price": "30000",
+        "priceCurrency": "PHP",
+        "description": "Multiple pages with customization"
+      },
+      {
+        "@type": "Offer",
+        "name": "Professional Website Package",
+        "price": "50000",
+        "priceCurrency": "PHP",
+        "description": "Multiple pages with admin portal"
+      }
+    ]
+  }
+};
